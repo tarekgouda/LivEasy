@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">LivEasy</string>
+    <string name="not_cahoot">Come in and make yourself at home.</string>
+    <string name="username_placeholder">Username</string>
+    <string name="auth_fail">Authorization Failed</string>
+    <string name="title_activity_nav_drawer">NavDrawerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="signup_option"><u>No account yet? Create one.</u></string>
+    <string name="login_option"><u>Already a member? Login.</u></string>
+    <string name="title_activity_join_group">JoinGroup</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="go_back">OK</string>
+    <string name="go_profile">PROFILE</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Options for Spinner -->
+    <string-array name="Options">
+        <item>I am OK with it</item>
+        <item>I am NOT ok with it</item>
+    </string-array>
+    <string name="title_activity_remove_user_from_group">RemoveUserFromGroup</string>
+
+</resources>

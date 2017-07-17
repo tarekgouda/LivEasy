@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--This is color palette for SignUpActivity-->
+    <color name="primary">#E43F3F</color>
+    <color name="primary_dark">#E12929</color>
+    <color name="primary_darker">#035BA9</color>
+    <color name="primary_darker_click">#033fa8</color>
+
+    <color name="accept_color">#03c610</color>
+    <color name="accept_color_click">#03a80e</color>
+
+    <color name="reject_color">#E43F3F</color>
+    <color name="reject_color_click">#E12929</color>
+
+    <color name="light_blue">#BBCFE6</color>
+
+
+    <color name="accent">#FFFFFF</color>
+
+    <color name="black">#000000</color>
+    <color name="jet">#222222</color>
+    <color name="oil">#333333</color>
+    <color name="monsoon">#777777</color>
+    <color name="jumbo">#888888</color>
+    <color name="aluminum">#999999</color>
+    <color name="base">#AAAAAA</color>
+    <color name="iron">#A6A8AB</color>
+    <color name="white">#FFFFFF</color>
+    <!--End of SignUpActivity palette-->
+</resources>

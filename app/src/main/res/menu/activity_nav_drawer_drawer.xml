@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Manage Group"
+        android:id="@+id/manage_group">
+        <menu>
+            <item android:title="Group Chat"
+                android:id="@+id/group_chat"
+                android:enabled="false"
+                android:visible="false"
+                android:icon="@android:drawable/sym_action_chat" />
+            <item
+                android:title="Manage Requests"
+                android:id="@+id/manage_requests"
+                android:icon="@drawable/ic_menu_manage" />
+            <item
+                android:title="Remove Members from Group"
+                android:id="@+id/remove_user"
+                android:enabled="false"
+                android:visible="false"
+                android:icon="?android:attr/actionModeCutDrawable" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share Group Code" />
+            <item android:title="Tasks"
+                android:id="@+id/manage_tasks"
+                android:icon="@android:drawable/ic_menu_agenda" />
+        </menu>
+    </item>
+    <item android:title="Manage Account"
+        android:id="@+id/manage_account">
+        <menu >
+            <item android:title="Leave Group"
+                android:id="@+id/leave_group"
+                android:icon="@android:drawable/ic_menu_close_clear_cancel" />
+            <item
+                android:id="@+id/logout"
+                android:title="Log Out"
+                android:icon="@android:drawable/ic_menu_directions" />
+        </menu>
+    </item>
+
+</menu>

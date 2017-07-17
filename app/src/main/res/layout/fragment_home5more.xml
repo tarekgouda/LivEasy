@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home5">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        tools:context=".Home5" >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/group_image5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="toGroupProfilePopup"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:paddingBottom="50dp"/>
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/group_image5"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="50sp"
+            android:scrollbars="none">
+
+        </ListView>
+
+
+
+    </RelativeLayout>
+</FrameLayout>
